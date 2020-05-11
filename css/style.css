@@ -1,0 +1,48 @@
+body{
+    background-color:maroon;
+}
+.gold-border{
+    border: 1;
+    border-color: gold;
+}
+p, td, h1, h2{
+    color: #FFFFF0;
+}
+.center-bottom{
+    padding: 0px;
+    color: #FFFFF0;
+    width:1000px;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: 20 auto;
+}
+
+.input-form{
+    width: 200px;
+}
+.gold-button{
+    background-color: gold;
+}
+.table-border th, td{
+    border:1px solid gold;
+    border-collapse: collapse;
+}
+
+fieldset,table{
+    width:100%
+ }
+ td{
+    width:50%;
+ }
+
+ tbody tr td:first-child{
+    text-align:right;
+    padding-right:20px;
+ }
+
+ ol, li{
+     padding-left: 175px;
+     list-style: none;
+ }
